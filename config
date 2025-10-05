@@ -1,0 +1,29 @@
+# ghostty-dotfiles Copyright (C) 2025 kernaltrap8
+# This program comes with ABSOLUTELY NO WARRANTY
+# This is free software, and you are welcome to redistribute it
+# under certain conditions
+
+#background-opacity = 0.98
+#background = "#000000"
+background-opacity = 1.0
+#font-family = "BigBlueTerm437 Nerdfont"
+font-family = "JetBrainsMono Nerdfont"
+#font-size = "14"
+font-size = "10"
+#theme = "3024 Night"
+#theme = "Dark Pastel"
+theme = Adventure
+window-padding-y = 0
+window-padding-x = 0
+shell-integration = fish
+window-decoration = false
+fullscreen = true
+keybind = ctrl+shift+alt+%=new_split:right
+keybind = ctrl+shift+alt+"=new_split:down
+keybind = ctrl+shift+alt+up=goto_split:top
+keybind = ctrl+shift+alt+down=goto_split:bottom
+keybind = ctrl+shift+alt+left=goto_split:left
+keybind = ctrl+shift+alt+left=goto_split:right
+window-colorspace = display-p3
+custom-shader = /home/charlotte/.config/ghostty/shaders/cineShader-Lava_fast.glsl
+#custom-shader = /home/charlotte/.config/ghostty/shaders/cineShader-Lava.glsl
