@@ -4,10 +4,11 @@
 # under certain conditions
 
 #background-opacity = 0.98
-#background = "#000000"
+background = "#000000"
 background-opacity = 1.0
 #font-family = "BigBlueTerm437 Nerdfont"
-font-family = "JetBrainsMono Nerdfont"
+#font-family = "JetBrainsMono Nerdfont"
+font-family = "Paper Mono Nerdfont"
 #font-size = "14"
 font-size = "10"
 #theme = "3024 Night"
@@ -25,5 +26,5 @@ keybind = ctrl+shift+alt+down=goto_split:bottom
 keybind = ctrl+shift+alt+left=goto_split:left
 keybind = ctrl+shift+alt+left=goto_split:right
 window-colorspace = display-p3
-custom-shader = /home/charlotte/.config/ghostty/shaders/cineShader-Lava_fast.glsl
+#custom-shader = /home/charlotte/.config/ghostty/shaders/cineShader-Lava_fast.glsl
 #custom-shader = /home/charlotte/.config/ghostty/shaders/cineShader-Lava.glsl
