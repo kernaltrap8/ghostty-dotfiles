@@ -28,3 +28,5 @@ keybind = ctrl+shift+left=goto_split:right
 window-colorspace = display-p3
 #custom-shader = /home/charlotte/.config/ghostty/shaders/cineShader-Lava_fast.glsl
 #custom-shader = /home/charlotte/.config/ghostty/shaders/cineShader-Lava.glsl
+quit-after-last-window-closed = false
+quit-after-last-window-closed-delay = 20m
