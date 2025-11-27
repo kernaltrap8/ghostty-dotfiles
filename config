@@ -5,7 +5,7 @@
 
 #background-opacity = 0.98
 background = "#000000"
-background-opacity = 1.0
+background-opacity = 0.8
 #font-family = "BigBlueTerm437 Nerdfont"
 #font-family = "JetBrainsMono Nerdfont"
 font-family = "Paper Mono Nerdfont"
@@ -28,5 +28,6 @@ keybind = ctrl+shift+left=goto_split:right
 window-colorspace = display-p3
 #custom-shader = /home/charlotte/.config/ghostty/shaders/cineShader-Lava_fast.glsl
 #custom-shader = /home/charlotte/.config/ghostty/shaders/cineShader-Lava.glsl
+custom-shader = /home/charlotte/.config/ghostty/shaders/cursor.glsl
 quit-after-last-window-closed = false
 quit-after-last-window-closed-delay = 20m
